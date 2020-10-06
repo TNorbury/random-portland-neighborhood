@@ -21,8 +21,6 @@ sections.forEach((section) => {
 
 })
 
-console.log(neighborhoodsObject);
-
 fs.writeFileSync("neighborhoods.json", JSON.stringify(neighborhoodsObject));
 
 
